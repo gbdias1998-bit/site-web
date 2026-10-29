@@ -1,45 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exercício CSS - Posicionamento</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim Semanal</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Menu lateral -->
-  <nav>
-    <h3>Menu</h3>
-    <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-    </ul>
-  </nav>
+    <header>
+        Boletim Semanal
+    </header>
 
-  <!-- Cabeçalho -->
-  <header>
-    Cabeçalho Sticky
-  </header>
+    <div class="container">
+        
+        <aside>
+            <ul>
+                <li><a href="#noticias">• Notícias</a></li>
+                <li><a href="#eventos">• Eventos</a></li>
+                <li><a href="#contato">• Contato</a></li>
+            </ul>
+        </aside>
 
-  <!-- Conteúdo: 3 seções conforme solicitado -->
-  <main>
-    <section>
-      <h2>Seção 1</h2>
-    </section>
+        <main>
+            <h1>Resumo da Semana</h1>
+            
+            <p class="introducao">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis sapien ut leo sodales, a facilisis felis convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi ac ligula ac sem condimentum viverra.
+            </p>
 
-    <section>
-      <h2>Seção 2</h2>
-    </section>
+            <blockquote>
+                "A informação bem estruturada e estilizada melhora a legibilidade e a experiência de leitura do usuário de forma significativa."
+            </blockquote>
 
-    <section>
-      <h2>Seção 3</h2>
-    </section>
-  </main>
+            <div class="cards-section">
+                
+                <div class="card">
+                    <img src="imagens/88162.png" alt="Notícia 1">
+                    <h3>Notícia 1</h3>
+                    <p>Descrição curta do primeiro acontecimento relevante do nosso boletim informativo regional.</p>
+                </div>
 
-  <!-- Botão flutuante -->
-  <button class="btn-flutuante" aria-label="Botão Flutuante"></button>
+                <div class="card">
+                    <img src="imagens/imagem1.jpg" alt="Notícia 2">
+                    <h3>Notícia 2</h3>
+                    <p>Destaque para os principais eventos e encontros culturais planejados para os próximos dias.</p>
+                </div>
+
+                <div class="card">
+                    <img src="imagens/images2.png" alt="Notícia 3">
+                    <h3>Notícia 3</h3>
+                    <p>Atualizações importantes da comunidade local e melhorias na infraestrutura urbana.</p>
+                </div>
+
+                <div class="card">
+                    <img src="imagens/sm_5afc4cd0dcaca.jpg" alt="Notícia 4">
+                    <h3>Notícia 4</h3>
+                    <p>Confira os dados, entrevistas exclusivas e as colunas de opinião desta edição especial.</p>
+                </div>
+
+            </div>
+        </main>
+
+    </div>
+
+    <footer>
+        © 2026 - Jornal Local. Todos os direitos reservados.
+    </footer>
 
 </body>
 </html>
